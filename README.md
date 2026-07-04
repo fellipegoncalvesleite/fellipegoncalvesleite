@@ -11,4 +11,4 @@ Student at CEFET-MG in Brazil. I build web and mobile apps, and I'm working on a
 - **[bebecare](https://github.com/fellipegoncalvesleite/bebecare)** — a Flutter app for baby routines, growth, vaccines, and bedtime stories.
 - **[satvocab](https://github.com/fellipegoncalvesleite/satvocab)** — a browser game for practicing SAT vocabulary with several question modes and local progress tracking.
 
-Mostly working with Flutter, React/TypeScript, and Python. You can reach me here on GitHub.
+Mostly working with Flutter, React/TypeScript, and Python.
