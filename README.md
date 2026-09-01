@@ -25,8 +25,10 @@ A deterministic human-society simulation exploring how movement, ecology, knowle
 ### [Cresce](https://github.com/fellipegoncalvesleite/cresce)
 A Flutter early-childhood care prototype developed during a **PIBIC Jr. experience at UFSJ**, covering routines, growth, vaccination references, stimulation activities, stories, sounds, and care notes.
 
-### [Brasil Afora](https://github.com/fellipegoncalvesleite/brasil-afora)
-A platform for discovering academic opportunities in Brazil and abroad, with profiles, favorites, map exploration, authentication, and administrative workflows. Built with Next.js, TypeScript, PostgreSQL, and Drizzle.
+### [Brasil Afora](https://brasil-afora.vercel.app)
+A platform for discovering academic opportunities in Brazil and abroad, with profiles, favorites, map exploration, authentication, administrative workflows, and a curated showcase of verified international scholarships and programs. Built with Next.js, TypeScript, PostgreSQL, and Drizzle.
+
+[Live site](https://brasil-afora.vercel.app) · [Official repository](https://github.com/Brasil-Afora/brasil-afora)
 
 ### [Nobre Amor Baby](https://github.com/fellipegoncalvesleite/nobre-amor-baby)
 An online store with product catalog, customer accounts, checkout, shipping, and admin tooling, integrating Supabase, Asaas, and Melhor Envio.
