@@ -16,9 +16,6 @@ The repository includes the scientific workflow, validation tests, provenance, i
 
 ## Selected engineering work
 
-### [Chat On Steroids](https://github.com/fellipegoncalvesleite/chat-on-steroids)
-Cross-platform desktop tooling that gives ChatGPT a controlled local MCP bridge for approved files, commands, durable sessions, and experimental multi-agent workflows. The project includes explicit permission boundaries, native packaging for Windows/macOS/Linux, release verification, and a companion Chrome extension.
-
 ### [Society Engine](https://github.com/fellipegoncalvesleite/society-engine)
 A deterministic human-society simulation exploring how movement, ecology, knowledge, memory, demography, and social complexity can emerge through interacting systems rather than scripted stages.
 
