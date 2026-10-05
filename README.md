@@ -1,39 +1,77 @@
 # Fellipe Gonçalves Leite
 
-Student researcher and software developer building **scientific analysis pipelines, backend systems, and deterministic simulations**.
+Student at **CEFET-MG** in Divinópolis, Brazil. I build software end to end: a society simulation, an independent space-weather study, and products that real people use.
 
-I care about software where correctness and reproducibility matter: explicit assumptions, testable behavior, provenance, and systems that can be inspected rather than treated as black boxes. I work primarily with **Python** and **TypeScript**, alongside PostgreSQL, React/Next.js, and Flutter/Dart.
+I care most about work that can be checked: reproducible results, explicit assumptions, and systems you can open up and inspect.
 
-## Research
+**Live now:** [brasilafora.org](https://brasilafora.org) · [nobreamor.com](https://www.nobreamor.com) · [Society Engine demo](https://society-engine.vercel.app)
 
-### [SAA / POES Mapping](https://github.com/fellipegoncalvesleite/saa-poes-mapping)
+---
 
-A reproducible methodological-sensitivity study using public **NOAA/NCEI POES/MetOp SEM-2 MEPED proton data** to examine how analysis choices change candidate high-proton-flux footprints associated with the South Atlantic Anomaly.
+## Society Engine
+**A deterministic simulation of early human societies** · TypeScript · React · Canvas
 
-The public research site exposes **340 validated configurations** across choices such as threshold, proton channel, spatial grid, observation window, and satellite. In the January 2024 analysis, tightening the selected footprint from the top 20% to the top 1% shifts the flux-weighted centroid by about **386 km** and changes the selected area by about **17.7×**.
+Small bands of people move through a seasonal world. They find food and water, remember good and dangerous places, send out foraging trips, grow, split into new groups and build up their own histories. Nothing is scripted: every behaviour comes from what a band can actually see, remember and carry. The same seed always replays the same history.
 
-The repository includes the scientific workflow, validation tests, provenance, interpretation boundaries, reproducibility documentation, and a site generated from canonical analysis outputs.
+[▶ Try it in the browser](https://society-engine.vercel.app) · [Repository](https://github.com/fellipegoncalvesleite/society-engine)
 
-## Selected engineering work
+<a href="https://society-engine.vercel.app"><img src="images/society-engine.jpg" alt="Society Engine: bands moving through a seasonal river valley" width="100%"></a>
 
-### [Society Engine](https://github.com/fellipegoncalvesleite/society-engine)
-A deterministic human-society simulation exploring how movement, ecology, knowledge, memory, demography, and social complexity can emerge through interacting systems rather than scripted stages.
+## South Atlantic Anomaly mapping
+**Independent research** · Python · NOAA satellite data
 
-### [Cresce](https://github.com/fellipegoncalvesleite/cresce)
-A Flutter early-childhood care prototype developed during a **PIBIC Jr. experience at UFSJ**, covering routines, growth, vaccination references, stimulation activities, stories, sounds, and care notes.
+How much does a map of the South Atlantic Anomaly depend on the analyst's choices? Using public NOAA POES/MetOp proton data from January 2024, I tested how the threshold, proton channel, grid size, time window and satellite each change the footprint's position and size.
 
-### [Brasil Afora](https://brasil-afora.vercel.app)
-A platform for discovering academic opportunities in Brazil and abroad, with profiles, favorites, map exploration, authentication, administrative workflows, and a curated showcase of verified international scholarships and programs. Built with Next.js, TypeScript, PostgreSQL, and Drizzle.
+*Manuscript in preparation:* "Analysis choices and orbital sampling shape a particle-defined South Atlantic Anomaly footprint."
 
-[Live site](https://brasil-afora.vercel.app) · [Official repository](https://github.com/Brasil-Afora/brasil-afora)
+[Repository and reproducible workflow](https://github.com/fellipegoncalvesleite/saa-poes-mapping)
 
-### [Nobre Amor Baby](https://github.com/fellipegoncalvesleite/nobre-amor-baby)
-An online store with product catalog, customer accounts, checkout, shipping, and admin tooling, integrating Supabase, Asaas, and Melhor Envio.
+<img src="images/saa-figure1.jpg" alt="Figure 1 of the manuscript: the reference proton-flux footprint, sample counts per cell, and coverage" width="100%">
 
-## Main tools
+## Brasil Afora
+**Main developer** · Next.js · TypeScript · PostgreSQL · [brasilafora.org](https://brasilafora.org)
 
-**Python · TypeScript · PostgreSQL · React / Next.js · Flutter / Dart · Supabase · Git**
+A platform that helps Brazilian students find verified scholarships, summer programs, exchanges, olympiads and science fairs in Brazil and abroad. I built most of it: the catalog, opportunity pages, the map, student profiles and checklists, the admin tools and the search optimisation. The code lives in the project's organization.
 
-## Elsewhere
+[Website](https://brasilafora.org) · [Repository (Brasil-Afora org)](https://github.com/Brasil-Afora/brasil-afora)
+
+<a href="https://brasilafora.org"><img src="images/brasil.jpg" alt="Brasil Afora home page" width="100%"></a>
+
+## Cresce
+**PIBIC Jr. research internship at UFSJ** · Flutter · Dart
+
+A baby-care app for parents: daily routines, growth records, the vaccination schedule, age-appropriate activities, stories and sounds, and an AI assistant that answers questions about the baby's own records. I built the Flutter app.
+
+[Repository](https://github.com/fellipegoncalvesleite/cresce)
+
+## Nobre Amor
+**Online store, live** · React · Supabase · [nobreamor.com](https://www.nobreamor.com)
+
+A children's clothing store with a catalog, customer accounts, Pix and card checkout, shipping quotes and an admin panel.
+
+[Website](https://www.nobreamor.com) · [Repository](https://github.com/fellipegoncalvesleite/nobre-amor-baby)
+
+<a href="https://www.nobreamor.com"><img src="images/nobre.jpg" alt="Nobre Amor store home page" width="100%"></a>
+
+## Smaller projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://versus-quiz.vercel.app"><img src="images/versus.jpg" alt="Versus Quiz"></a><br>
+<b><a href="https://github.com/fellipegoncalvesleite/versus-quiz">Versus Quiz</a></b>: real-time multiplayer typing quiz. Friends share a room and race to claim answers. <a href="https://versus-quiz.vercel.app">Play</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://satvocab-eta.vercel.app"><img src="images/satvocab.jpg" alt="VocabSAT"></a><br>
+<b><a href="https://github.com/fellipegoncalvesleite/satvocab">VocabSAT</a></b>: SAT vocabulary game I made for my own prep, with 4,489 words and four quiz modes. <a href="https://satvocab-eta.vercel.app">Play</a>
+</td>
+</tr>
+</table>
+
+Also: [ChatGPT Development Bridge](https://github.com/fellipegoncalvesleite/chatgpt-github-mcp-app) (self-hosted MCP server) · [Minecraft plugins](https://github.com/fellipegoncalvesleite/minecraft-plugins) (Java) · [Python projects](https://github.com/fellipegoncalvesleite/python-projects) · [School projects](https://github.com/fellipegoncalvesleite/school-projects)
+
+---
+
+**Tools:** Python · TypeScript · React / Next.js · PostgreSQL · Supabase · Flutter / Dart · Git
 
 [LinkedIn](https://www.linkedin.com/in/fellipe-leite-05a41242a/)
