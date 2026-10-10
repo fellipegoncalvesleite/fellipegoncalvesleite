@@ -4,7 +4,7 @@ Student at **CEFET-MG** in Divinópolis, Brazil. I build software end to end: pr
 
 I care most about work that can be checked: reproducible results, explicit assumptions, and systems you can open up and inspect.
 
-**Live now:** [brasilafora.org](https://brasilafora.org) · [nobreamor.com](https://www.nobreamor.com)
+**Live now:** [brasilafora.org](https://brasilafora.org) · [nobreamor.com](https://www.nobreamor.com) · [satvocab-eta.vercel.app](https://satvocab-eta.vercel.app)
 
 ---
 
