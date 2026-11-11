@@ -5,7 +5,7 @@ Student in Brazil, in the technical course in informatics at CEFET-MG. I build M
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fellipegoncalvesleite/liquid-notch"><img src="images/liquid-notch.gif" alt="Liquid Notch: the island showing an AI chat, a call and AirPods" width="100%"></a>
+      <a href="https://github.com/fellipegoncalvesleite/liquid-notch"><img src="images/liquid-notch.jpg" alt="Liquid Notch: the island under the notch playing a song with synced lyrics" width="100%"></a>
       <p><a href="https://github.com/fellipegoncalvesleite/liquid-notch"><b>Liquid Notch</b></a><br>
       The MacBook notch as a liquid, Dynamic Island-style shape for music, lyrics, AirPods and Claude Code.<br>
       <sub>Swift · SwiftUI · open source (MIT) · <a href="https://github.com/fellipegoncalvesleite/liquid-notch/releases/latest">Download</a></sub></p>
